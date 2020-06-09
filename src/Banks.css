@@ -1,0 +1,14 @@
+body {
+    background-color: yellow;
+}
+
+ form {
+    background-color: lawngreen;
+    padding-left: 0px;
+}
+
+ input{
+    border-radius: 10px;
+    text-align: center;
+}
+
