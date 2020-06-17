@@ -20,7 +20,7 @@ class AddBank extends Component {
     }
     render(){
         return (
-            <div>
+            <div className="form">
                 <form onSubmit={this.handleSubmit}>
                     <label htmlFor="name">Account Name:</label>
                     <input type="text" id="name" onChange={this.handleChange} /><br></br>
@@ -30,7 +30,7 @@ class AddBank extends Component {
                     <input type="text" id="bank" onChange={this.handleChange} /><br></br>
                 <label htmlFor="name">Bank Branch:</label>
                     <input type="text" id="branch" onChange={this.handleChange} /><br></br>
-                <button>Submit</button>
+                <button className="btn-btn">Submit</button>
                 </form>
             </div>
         )

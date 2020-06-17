@@ -31,15 +31,16 @@ class App extends Component {
 
     
     return (
-      <div className="App">
+      <div className="App"> 
         <h1 className="center blue-text">Bankie</h1>
-        <Banks banks={this.state.banks} deleteBank={this.deleteBank}/>
+        <Banks banks={this.state.banks} deleteBank={this.deleteBank}/> 
         <h2>Add An Account</h2>
         <AddBank addBank={this.addBank} />
-
-        
- 
+            
       </div>
+      
+      
+        
       
     );
   }

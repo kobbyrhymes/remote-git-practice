@@ -1,5 +1,5 @@
 import React from 'react'
-import './Banks.css'
+import './App.css'
 
 
     
@@ -13,12 +13,12 @@ const Banks = ({banks, deleteBank}) => {
                     <div>Bank Name: {bank.bank}</div>
                     <div>Bank Branch: {bank.branch}</div>
                     <button onClick={() => {deleteBank(bank.id)}}>Delete Account</button>   
-                    </div>
+                </div>
             )   
         })
     
     ) : (
-            <h4 className="center">Ooops...!!! You have not added any Accounts.</h4>
+            <h4>Ooops...!!! You have no added Accounts.</h4>
     )
     return (
         <div className="bank-list">
